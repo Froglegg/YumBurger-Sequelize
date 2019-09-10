@@ -1,12 +1,12 @@
 # YumBurger
 
-YumBurger is an MVC app built with Node.js, express, handlebars, validator, and in production uses JawsDB (MySQL) on Heroku, and was built as an exercise in data persistence and maintaining state. The user can create burgers and update the state of the burgers from "not devoured" to "devoured." 
+YumBurger is an MVC app built with Node.js, express, handlebars, validator, and in production uses JawsDB (MySQL) on Heroku, and was built as an exercise in data persistence and maintaining state. This version is built using Sequelize. The user can create burgers and update the state of the burgers from "not devoured" to "devoured." 
 
 ![](burger.gif)
 
 ## Getting started
 
-To view this app in production simply navigate to https://yum-yum-burger.herokuapp.com/ 
+To view this app in production simply navigate to https://yumburger-sequel.herokuapp.com/
 
 To develop on your local machine:
 
