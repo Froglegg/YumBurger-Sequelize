@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    	<link rel="stylesheet" href="/assets/css/normalize.css" type="text/css" />
+		<link rel="stylesheet" href="/assets/css/styles.css" type="text/css" />
+		<title>MVC With Burgers!</title>
+		<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+		<script src="/assets/js/burgerPublic.js"></script>
+	</head>
+	<body>
+		{{{ body }}}
+		<script>    
+
+	let animationState = window.localStorage.getItem('disable-animations');
+    console.log(animationState);
+    if (animationState === "true") {
+        $(".main").addClass("no-animations");
+		$("#reset").show();
+    }
+	else {
+	$("#reset").hide();
+	}
+		</script>
+	</body>
+</html>

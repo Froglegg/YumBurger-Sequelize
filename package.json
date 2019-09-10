@@ -1,0 +1,20 @@
+{
+  "name": "sequelizeburger",
+  "version": "1.0.0",
+  "description": "YumBurger is an MVC app built with Node.js, express, handlebars, validator, and in production uses JawsDB (MySQL) on Heroku, and was built as an exercise in data persistence and maintaining state. The user can create burgers and update the state of the burgers from \"not devoured\" to \"devoured.\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "handlebars": "^4.2.0",
+    "mysql2": "^1.7.0",
+    "sequelize": "^5.18.4"
+  }
+}
